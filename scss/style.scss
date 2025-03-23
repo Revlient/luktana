@@ -519,7 +519,7 @@ h1, h2, h3, h4, h5,
 	}
 	&.btn-white {
 		background: $white;
-		border: 1px solid $white;
+		border: 1px solid $black;
 		color: $black;
 		@include border-radius(0);
 		// box-shadow: 0 5px 20px -5px rgba(0,0,0,.5) !important;
@@ -529,7 +529,7 @@ h1, h2, h3, h4, h5,
 			color :$white;
 		}
 		&.btn-outline-white {
-			border-color: rgba($white, .8);
+			border-color: rgba($black, .8);
 			background: none;
 			@include border-radius(0);
 			border-width: 1px;
